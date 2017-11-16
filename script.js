@@ -8,7 +8,6 @@ export function functionalFilterNegativeNumbers(numbers){
         function isNoNegative(value) {
                 return value >= 0;
         }
-        console.log(numbers);
         var filtered = numbers.filter(isNoNegative);        
         return filtered;
 
@@ -56,6 +55,6 @@ export class Person {
 }
 
 export function printOutPersonAge(person){
-        console.log(person.age);
+       console.log(person.age);
 
-}
+ }
