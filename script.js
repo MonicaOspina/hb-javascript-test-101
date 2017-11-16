@@ -7,6 +7,8 @@ export function generateRandomColor(){
 export function functionalFilterNegativeNumbers(numbers){
         function isNoNegative(value) {
                 return value >= 0;
+                
+                        
         }
         var filtered = numbers.filter(isNoNegative);        
         return filtered;
@@ -15,7 +17,7 @@ export function functionalFilterNegativeNumbers(numbers){
 
 export function filterNegativeNumbers(numbers){
         const array = [];
-        for(var i = 0; i< numbers.length;i++){
+        for(let i = 0; i< numbers.length;i++){
                 if(numbers[i] >=0){
                         array.push(numbers[i]);
                 }
