@@ -42,6 +42,7 @@ describe('functionalFilterNegativeNumbers',()=>{
 describe('filterNegativeNumbers',()=>{
     it('Filter negative numbers in a cycle',() =>{
         expect(filterNegativeNumbers([4, 6, 5, 34, 54, 7, 0, -2])).toEqual([4, 6, 5, 34, 54, 7, 0]);
+        expect(functionalFilterNegativeNumbers([-4, -6, -5, -34, -54, -7])).toEqual([]);
     });
 });
 
